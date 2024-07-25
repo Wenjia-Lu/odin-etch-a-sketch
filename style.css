@@ -8,6 +8,7 @@ h1 {
     align-items: center;
     width: 600px;
     height: 600px;
+    border: 3px solid black;
 }
 
 .row {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .pixel {
-    border: 1px solid rgb(151, 148, 148);
+    /* border: 1px solid rgb(151, 148, 148); */
     flex-grow: 1;
 }
 
@@ -36,4 +37,10 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 64px;
+}
+
+.mods{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 32px;
 }

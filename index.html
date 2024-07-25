@@ -13,13 +13,33 @@
     <div class="container">
         <!-- mods (slider/buttons) here -->
         <div class="mods"> 
+
             <div class="canvas_size">
-                <label for="size" id="size_lab">8</label>
+                <label for="size" id="size_lab">Current canvas size: 8</label>
                 <input type="range" min="1" max="64" value="16" id="size">
                 <!-- <button>change canvas size</button> -->
             </div>
             
-            <!-- <input type="text" value="Enter new canvas size" id="canvas_size" name="canvas_size"> -->
+            <!-- <button id="rainbow">Toggle rainbow brush</button>
+
+            <button id="soft">Toggle soft brush</button>
+             -->
+            <label for="color_picker">
+                Select Pen color
+                <input type="color" id="color_picker" value="#000000">
+            </label>
+            <label for="rainbow">
+                Toggle rainbow brush
+                <input type="checkbox" id="rainbow">
+                <span ></span>
+            </label>
+
+            <label for="soft">
+                Toggle soft brush
+                <input type="checkbox" id="soft">
+                <span></span>
+            </label>
+
         </div>
 
         <div class="canvas"> 
