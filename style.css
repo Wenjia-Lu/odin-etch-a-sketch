@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.canvas {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.pixel {
+    border: 1px solid rgb(151, 148, 148);
+    flex-grow: 1;
+}
+
+.canvas_size{
+    display: flex;
+
+}
+
+.pixel:hover{
+    background-color: rgb(251, 114, 237);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
